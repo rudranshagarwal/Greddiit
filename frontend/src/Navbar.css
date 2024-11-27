@@ -1,0 +1,37 @@
+
+
+.completenav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    column-gap: 10px;
+}
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom : 2%;
+}
+.navprofile, .navmysubgreddiits, .navsubgreddiits, .navsavedposts{
+    width: 10%;
+    font-size:25px;
+    height: 30px;
+    margin-top: 1.7%;
+    background-color: transparent;
+    border:0;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.navprofile:hover, .navmysubgreddiits:hover, .navsubgreddiits:hover, .navsavedposts:hover{
+    color: white;
+
+}
+
+.navmysubgreddiits{
+    flex-grow: 0.1
+}

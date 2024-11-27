@@ -1,0 +1,57 @@
+.reporteach {
+    background-color: rgb(185, 195, 41);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Share', cursive;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.reportactions {
+    margin-left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reportactions>button {
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.deletepost {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+
+.deletepost:hover {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.blockreport {
+    background-color: #111827;
+    color: white;
+}
+
+.blockreport:hover {
+    background-color: #374151;
+
+}
+
+.bodyofreports{
+    margin-top: 40px;
+}
+
+.ignorereport:hover {
+    color: black;
+}

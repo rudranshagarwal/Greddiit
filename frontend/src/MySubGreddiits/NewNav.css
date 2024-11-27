@@ -1,0 +1,44 @@
+
+
+.NavonSubGreddiit{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    column-gap: 1px;
+}
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.Navprofile, .Navmysubgreddiits, .Navsubgreddiits, .NavJoinRequests, .NavUsers, .NavReported, .NavStats, .NavSavedposts{
+    width: 10%;
+    font-size:25px;
+    height: 30px;
+    margin-top: 1.7%;
+    background-color: transparent;
+    border:0;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    text-align : center;
+}
+
+.Navprofile:hover, .Navmysubgreddiits:hover, .Navsubgreddiits:hover, .NavJoinRequests:hover, .NavUsers:hover, .NavReported:hover, .NavStats:hover, .NavSavedposts:hover{
+    color: white
+    
+}
+
+
+.Navsavedposts {
+transform: translate(10px, 18px);
+background-color: transparent;
+border: None;
+}
+
+.Navsubgreddiits {
+    height: 50px;
+    width: 50px;
+}
