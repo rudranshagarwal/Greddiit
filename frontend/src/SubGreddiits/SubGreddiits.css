@@ -1,0 +1,8 @@
+.subgreddiitspage{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2%;
+        row-gap: 30px;
+        margin-top: 3%;
+        justify-content: space-around;
+}

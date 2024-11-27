@@ -1,0 +1,21 @@
+
+/* 
+select {
+    position: relative;
+    font-size: 25px;
+    width: 120px;
+    float: right;
+    border: none;
+    height: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 1px;
+    appearance: none;
+    text-align: center;
+} */
+
+
+option {
+    background-color: transparent;
+}

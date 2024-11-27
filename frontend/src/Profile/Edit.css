@@ -1,0 +1,55 @@
+.Edit {
+    margin-bottom: 0px;
+    position: relative;
+    font-family: Arial;
+    width: 300px;
+    float: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+select {
+    position: relative;
+    font-size: 22px;
+    width: 120px;
+    float: right;
+    border: none;
+    height: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 1px;
+    appearance: none
+}
+
+
+option {
+    background-color: transparent;
+}
+
+.edit-form {
+    margin-left: 40%;
+}
+.edit-form >input[type="text"] {
+    font-size: 20px;
+    height: 25px;
+    font-family: 'Sofia Sans', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+}
+
+.button {
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color : transparent;
+    font-family: 'Sofia Sans', sans-serif;
+    border: none
+}
+
+button:hover{
+    color: white;
+}
